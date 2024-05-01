@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/MavenPro-Black.ttf",
+      "sha1": "bc43d3a0c3ac816b573bf1fd3c958848a3526ff5"
+    },
+    {
+      "path": "assets/fonts/MavenPro-Bold.ttf",
+      "sha1": "e112d0315bbab5dc829033602cf8d7e4a0fe8a7d"
+    },
+    {
+      "path": "assets/fonts/MavenPro-ExtraBold.ttf",
+      "sha1": "2f5254429ae0da798265d414cd7a0fa71509b47b"
+    },
+    {
+      "path": "assets/fonts/MavenPro-Medium.ttf",
+      "sha1": "0e503f4d5734515797884570b6b0dd8cd7c1ee7f"
+    },
+    {
+      "path": "assets/fonts/MavenPro-Regular.ttf",
+      "sha1": "537335c928145ab1f956ef515c08466d8ac7be10"
+    },
+    {
+      "path": "assets/fonts/MavenPro-SemiBold.ttf",
+      "sha1": "dedcaec72990454a4547f488140c8dc40b1b2633"
+    },
+    {
+      "path": "assets/fonts/Podkova-Bold.ttf",
+      "sha1": "b2f667cc67ddf31a23c226ae67831d8fde0ea469"
+    },
+    {
+      "path": "assets/fonts/Podkova-ExtraBold.ttf",
+      "sha1": "ae47e74dfd2dbc9ac1f9604c94c59cdf892c3433"
+    },
+    {
+      "path": "assets/fonts/Podkova-Medium.ttf",
+      "sha1": "fd307a360f34e59ebfd16d83186d7694f0cc6f82"
+    },
+    {
+      "path": "assets/fonts/Podkova-Regular.ttf",
+      "sha1": "8cefe9f35a56ee71361621ed2b8e540431e36bcd"
+    },
+    {
+      "path": "assets/fonts/Podkova-SemiBold.ttf",
+      "sha1": "2cf2ed6ef54b5becfe855bafece4913f53037322"
+    },
+    {
+      "path": "assets/fonts/Podkova-VariableFont_wght.ttf",
+      "sha1": "0933d029b86cab82eca57947843c1b769d21399b"
+    }
+  ]
+}
