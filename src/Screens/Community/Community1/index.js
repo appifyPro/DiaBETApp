@@ -14,26 +14,35 @@ const Community1 = () => {
     {
       username:'User Name 123',
       userSlice:'A',
+      ImageBackground:require('../../../../assets/A.png') ,
       discription:' Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in '
     },
     {
       username:'User Name 456',
       userSlice:'D',
+      ImageBackground:require('../../../../assets/D.png') ,
+
       discription:' Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in '
     },
     {
       username:'User Name 789',
       userSlice:'H',
+      ImageBackground:require('../../../../assets/G.png') ,
+
       discription:' Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in '
     },
     {
       username:'User Name 156',
       userSlice:'S',
+      ImageBackground:require('../../../../assets/A.png') ,
+
       discription:' Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in '
     },
     {
       username:'User Name 326',
       userSlice:'U',
+      ImageBackground:require('../../../../assets/D.png') ,
+
       discription:' Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in '
     },
 
@@ -75,7 +84,7 @@ const Community1 = () => {
               Post anonymously</Text>
           </TouchableOpacity>
         </View>
-        <ScrollView style={{marginBottom:15,}}>
+        {/* <ScrollView style={{marginBottom:15,}}> */}
 
      
         <FlatList
@@ -84,11 +93,11 @@ const Community1 = () => {
           return(
             <View style={styles.post_user}>
           <View style={styles.user_detail}>
-            <View style={styles.user_profile}>
+          <ImageBackground source={item.ImageBackground} style={styles.user_profile}>
               <Text style={styles.user_Slice}>
                 {item.userSlice}
               </Text>
-            </View>
+            </ImageBackground>
             <View style={styles.user_name_box}>
               <Text style={styles.userName}>
                {item.username}
@@ -103,7 +112,7 @@ const Community1 = () => {
         </View>
           )
         }}/>
-           </ScrollView>
+           {/* </ScrollView> */}
       </View>
     </ImageBackground>
   )

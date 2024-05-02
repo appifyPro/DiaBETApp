@@ -79,7 +79,7 @@ const SignUp = () => {
               The Best DiaBET provides recommendations based on your specific interests please fill out the provided survey and/or allow The Best DiaBET access to your social media to enable better recommendations.
             </Text>
           </View>
-          <TouchableOpacity style={styles.survey_container}>
+          <TouchableOpacity onPress={()=>navigation.navigate('Survey')} style={styles.survey_container}>
             <Text style={styles.survey_text}>
               Fill out Survey
             </Text>

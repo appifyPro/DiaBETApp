@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import Login from '../../Screens/Auth/Login'
 import SignUp from '../../Screens/Auth/SignUP'
 import Buttom_Navigation from '../Buttom'
+import Survey from '../../Screens/Survey'
 const Stack=createNativeStackNavigator();
 const Stack_Navigation = () => {
   return (
@@ -14,6 +15,8 @@ const Stack_Navigation = () => {
     <Stack.Screen name='Login' component={Login}/>
     <Stack.Screen name='SignUp' component={SignUp}/>
     <Stack.Screen name='Home' component={Buttom_Navigation}/>
+    <Stack.Screen name='Survey' component={Survey}/>
+
     </Stack.Navigator>
     </NavigationContainer>
   )

@@ -33,12 +33,12 @@ export const styles = StyleSheet.create({
         fontFamily: FONTS.MavenProMidum
     },
     Detail_Container: {
-        height: '90%',
+        height: '87%',
         width: '92%',
 
         backgroundColor: 'white',
         alignSelf: 'center',
-
+// marginBottom:30,
     },
     SafeAreaView: {
         height: 22,
@@ -103,11 +103,13 @@ export const styles = StyleSheet.create({
     user_profile: {
         height: 30,
         width: 30,
-        backgroundColor: 'blue',
+        // backgroundColor: 'blue',
         borderRadius: 50,
         alignItems: 'center',
         justifyContent: 'center',
         // flexDirection:'row',
+        // borderWidth:1,
+        
 
     },
     user_Slice: {

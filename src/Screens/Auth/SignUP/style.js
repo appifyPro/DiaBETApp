@@ -8,11 +8,11 @@ export const styles = StyleSheet.create({
     // backgroundColor:COLORS.mainColor
   },
   Text_Field_Container: {
-    height: '91.5%',
+    height: '92.5%',
     width: '95%',
     backgroundColor: COLORS.white,
     alignSelf: 'center',
-    marginTop: '12.5%',
+    marginTop: '11%',
   },
   inputBox_container: {
     width: '100%',

@@ -69,7 +69,6 @@ const Food1 = () => {
               <View style={styles.user_detail}>
 
                 <TouchableOpacity
-                  //  onPress={()=>navigation.navigate('Community1')}
                   style={styles.user_name_box}>
                   <Text style={styles.userName}>
                     Kale Salad
@@ -196,6 +195,8 @@ const Food1 = () => {
               <View style={styles.user_detail}>
 
                 <TouchableOpacity
+                   onPress={()=>navigation.navigate('Food2')}
+
                   //  onPress={()=>navigation.navigate('Community1')}
                   style={styles.user_name_box}>
                   <Text style={styles.userName}>

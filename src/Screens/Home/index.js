@@ -1,8 +1,10 @@
-import { View, Text, ImageBackground, FlatList } from 'react-native'
+import { View, Text, ImageBackground, FlatList, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { styles } from './style'
+import { useNavigation } from '@react-navigation/native'
 
 const Home = () => {
+  const navigation=useNavigation()
   const data=[
     {
       title:'Eat Well with Diabetes',
@@ -28,11 +30,11 @@ const Home = () => {
           renderItem={({item,index})=>{
             return(
               <View style={styles.Text_Contaner}>
-            <View style={styles.title_container}>
+            <TouchableOpacity onPress={()=>navigation.navigate('Blog')} style={styles.title_container}>
               <Text style={styles.title}>
               {item.title}
               </Text>
-            </View>
+            </TouchableOpacity>
             <View style={styles.discription_container}>
               <Text style={styles.discription}>
                 {

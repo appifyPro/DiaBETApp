@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
         fontFamily: FONTS.MavenProMidum
     },
     Detail_Container: {
-        height: '90%',
+        height: '87%',
         width: '92%',
 
         backgroundColor: 'white',
